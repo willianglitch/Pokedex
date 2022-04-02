@@ -23,3 +23,15 @@ p , h1{
     font-size: 30px;
     padding-left: 12px;
 }
+
+.container{
+    background-color: #A63EC5;
+    width: 100px;
+    height: 100vh;
+    margin-left: 50px;
+    padding: 10px;
+}
+.section-card{
+    background-color: #000;
+    color: #fff;
+}
