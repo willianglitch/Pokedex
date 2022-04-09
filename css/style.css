@@ -9,6 +9,8 @@ p , h1{
     margin: 0px;
 }
 
+/* ============================= HEADER ===================== */
+
 .title{
     display: flex;
     justify-content: center;
@@ -24,6 +26,26 @@ p , h1{
     padding-left: 12px;
 }
 
+/* ================================== INFO-REGIÃO ================= */
+
+.infoRegião{
+    height: 100px;
+    padding-top: 25px;
+}
+.infobutton{
+    display: inline-block;
+    padding: 25px;
+    background-color: #FD5D5D;
+    border-radius: 15px; 
+    margin-left: 20px;
+    cursor: pointer;
+}
+.infobutton p{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+/* ================================== POKEDEX =================== */
+
 .container{
     background-color: #A63EC5;
     width: 130px;
@@ -31,6 +53,15 @@ p , h1{
     margin-left: 50px;
     padding: 10px;
     box-sizing: border-box;
+}
+.pokeball-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.pokeball-icon img{
+    height: 30px;
 }
 .section-card{
     background-color: #000000BB;
